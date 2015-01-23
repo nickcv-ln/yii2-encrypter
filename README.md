@@ -138,3 +138,5 @@ Warnings
 --------
 
 It is extremely hard to decrypt the data without the password and IV, keep a copy of them to avoid losing all your data.
+
+**Two-way encryption should not be used to store passwords: you should use a one-way encryption function like sha1 and a SALT**

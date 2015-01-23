@@ -1,0 +1,22 @@
+{
+	"name": "nickcv/yii2-encrypter",
+	"description": "Openssl Encrypter for Yii2",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","behavior","active record","encryption","openssl"],
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Nicola Puddu",
+			"email": "n.puddu@outlook.com"
+		}
+	],
+	"require": {
+			"yiisoft/yii2": "*",
+            "lib-openssl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"nickcv\\encrypter\\": ""
+		}
+	}
+}

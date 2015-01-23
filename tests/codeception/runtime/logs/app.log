@@ -1,0 +1,104 @@
+2015-01-23 14:57:59 [][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'nickcv\encrypter\behaviors\Exception' not found' in /Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter/behaviors/EncryptionBehavior.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-01-23 14:57:59 [][-][-][info][application] $_SERVER = [
+    'RA_GIV' => 's6Hdwl8fWHC1_t|P'
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'RA_SMTP_USR' => 'no-reply@beg-for-keys.com'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/nj/87nq3v6x2534mm930q6kbzgh0000gq/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.gGqpLjt2JT/Render'
+    'TERM_PROGRAM_VERSION' => '343'
+    'RA_GP' => 'vS4Y334_!dTj2'
+    'OLDPWD' => '/Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter/tests'
+    'TERM_SESSION_ID' => 'EB1A3CB7-4781-4C87-8A78-7553075F3499'
+    'USER' => 'nicola.puddu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.b1MLtaQTBE/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F7:0x0:0x0'
+    'RA_SMTP_PSW' => 'ranchanucchan89'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin'
+    'RA_DB_NAME' => 'rest_assured'
+    'RA_SALT' => 'gewerVewa432SfE3478'
+    'PWD' => '/Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter'
+    'LANG' => 'en_GB.UTF-8'
+    'RA_DB_PSW' => 'root'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'HOME' => '/Users/nicola.puddu'
+    'SHLVL' => '1'
+    'RA_DB_USR' => 'root'
+    'RA_SMTP_HOST' => 'smtp.gmail.com'
+    'LOGNAME' => 'nicola.puddu'
+    'RA_CDN_URL' => 'http://cdn.restassured.loc/index-test.php/'
+    'RA_DB_HOST' => 'localhost'
+    'RA_SESSION_DOMAIN' => '.restassured.loc'
+    'SECURITYSESSIONID' => '186a6'
+    '_' => '/usr/bin/codecept'
+    'PHP_SELF' => '/usr/bin/codecept'
+    'SCRIPT_NAME' => '/basic/web/index-test.php'
+    'SCRIPT_FILENAME' => '/Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter/web/index-test.php'
+    'PATH_TRANSLATED' => '/usr/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1422025079.736
+    'REQUEST_TIME' => 1422025079
+    'argv' => [
+        0 => '/usr/bin/codecept'
+        1 => 'run'
+    ]
+    'argc' => 2
+    'SERVER_NAME' => 'localhost'
+]
+2015-01-23 15:42:03 [][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'nickcv\encrypter\Encrypter' not found' in /Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter/tests/unit/EncrypterTest.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-01-23 15:42:03 [][-][-][info][application] $_SERVER = [
+    'RA_GIV' => 's6Hdwl8fWHC1_t|P'
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'RA_SMTP_USR' => 'no-reply@beg-for-keys.com'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/nj/87nq3v6x2534mm930q6kbzgh0000gq/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.gGqpLjt2JT/Render'
+    'TERM_PROGRAM_VERSION' => '343'
+    'RA_GP' => 'vS4Y334_!dTj2'
+    'OLDPWD' => '/Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter/tests'
+    'TERM_SESSION_ID' => 'EB1A3CB7-4781-4C87-8A78-7553075F3499'
+    'USER' => 'nicola.puddu'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.b1MLtaQTBE/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F7:0x0:0x0'
+    'RA_SMTP_PSW' => 'ranchanucchan89'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin'
+    'RA_DB_NAME' => 'rest_assured'
+    'RA_SALT' => 'gewerVewa432SfE3478'
+    'PWD' => '/Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter'
+    'LANG' => 'en_GB.UTF-8'
+    'RA_DB_PSW' => 'root'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'HOME' => '/Users/nicola.puddu'
+    'SHLVL' => '1'
+    'RA_DB_USR' => 'root'
+    'RA_SMTP_HOST' => 'smtp.gmail.com'
+    'LOGNAME' => 'nicola.puddu'
+    'RA_CDN_URL' => 'http://cdn.restassured.loc/index-test.php/'
+    'RA_DB_HOST' => 'localhost'
+    'RA_SESSION_DOMAIN' => '.restassured.loc'
+    'SECURITYSESSIONID' => '186a6'
+    '_' => '/usr/bin/codecept'
+    'PHP_SELF' => '/usr/bin/codecept'
+    'SCRIPT_NAME' => '/basic/web/index-test.php'
+    'SCRIPT_FILENAME' => '/Users/nicola.puddu/www-data/yii2/vendor/nickcv/yii2-encrypter/web/index-test.php'
+    'PATH_TRANSLATED' => '/usr/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1422027723.6754
+    'REQUEST_TIME' => 1422027723
+    'argv' => [
+        0 => '/usr/bin/codecept'
+        1 => 'run'
+    ]
+    'argc' => 2
+    'SERVER_NAME' => 'localhost'
+]

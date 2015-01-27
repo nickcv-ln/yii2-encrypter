@@ -1,7 +1,7 @@
 Openssl Encrypter for Yii2
 ======================
 Openssl Encrypter for Yii2
-Version 1.0
+Version 1.0.2
 
 This extension is used for two-way encryption.
 The cypher method used is **AES**, and you can either use the **128 bites** or **256 bites** encryption.

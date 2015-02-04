@@ -1,7 +1,7 @@
 Openssl Encrypter for Yii2
 ======================
 Openssl Encrypter for Yii2
-Version 1.0.2
+Version 1.1.0
 
 This extension is used for two-way encryption.
 The cypher method used is **AES**, and you can either use the **128 bites** or **256 bites** encryption.
@@ -74,7 +74,7 @@ Add then the module to the module list
 ],
 ```
 
-At this point you will be able to simply execute from the root of your app directory the command ```./yii encrypter```
+At this point you will be able to simply execute from the root of your app directory the command ```./yii encrypter/setup```
 
 The command will automatically generate the config file ```encrypter.php``` in your application ```config``` directory. The generated config file will contain a randomly generated password and IV.
 
@@ -127,6 +127,13 @@ public function behaviors()
 The behavior will automatically encrypt all the data before saving it on the database and decrypt it after the retrieve.
 
 **Keep in mind that the behavior will use the current configuration of the extension for the encryption.**
+
+Console Commands
+----------------
+
+If the console module is installed you can also use the ```./yii encrypter/encrypt``` and ```./yii encrypter/decrypt``` console commands.  
+
+To find out how to install the console module follow the "**Automatic Installation**" instructions in this document.
 
 Unit Testing
 ------------

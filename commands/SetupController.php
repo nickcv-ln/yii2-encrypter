@@ -1,6 +1,6 @@
 <?php
 /**
- * Contains the controller class triggered by the ```./yii encrypter```
+ * Contains the controller class triggered by the ```./yii encrypter/setup```
  * console command.
  * 
  * @link http://www.creationgears.com/
@@ -17,10 +17,10 @@ use yii\web\View;
 use yii\helpers\Console;
 
 /**
- * This command automatically generates the config file used by the encrypter component.
+ * Automatically generate the config file used by the encrypter component.
  * 
  * @author Nicola Puddu <n.puddu@outlook.com>
- * @version 1.0
+ * @version 1.1.0
  */
 class SetupController extends Controller
 {
